@@ -2,6 +2,7 @@ require("dotenv").config();
 
 require("@nomiclabs/hardhat-etherscan");
 require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-ethers");  // const { ethers } = require("hardhat"); in your JS
 require("hardhat-gas-reporter");
 require("solidity-coverage");
 
