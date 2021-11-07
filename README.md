@@ -14,21 +14,29 @@ Notes:
 
 Create-react-app has been used to create this project 1st
 
-since running a frontend:
-will need:
-
-npx hardhat node
-
-connect your wallet or application to http://localhost:8545
-
-see: https://hardhat.org/hardhat-network/reference/ for details
-
-### SETUP 
+### SETUP and How to run
 
 To install the dependencies 
 
 `npm install .  ` 
 
+compile the backend smart contracts 1st 
+`npx hardhat compile`
+
+to test on your local machine load up the hardhat test network
+and deploy contract(s)
+
+`npx hardhat node`
+`npx hardhat run --network localhost scripts/deploy.js`
+
+now can run the frontend using craco 
+
+`npm run start`
+
+### Notes:
+
+Although not recomended, you can disable eslint by adding <*> at the beginning of the 
+.eslintignore file when testing the frontend.  
 
 # Advanced Sample Hardhat Project
 
