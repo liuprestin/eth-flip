@@ -1,7 +1,7 @@
 ### Eth-flip boilerplate 
 
 Front-end:
-- create-react-app
+- create-react-app (craco replaced react-scripts)
 - tailwindcss (with postcss 7 and autoprefixer)
 
 Backend:
