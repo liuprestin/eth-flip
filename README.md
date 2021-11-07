@@ -1,3 +1,15 @@
+### Eth-flip boilerplate 
+
+Front-end:
+- create-react-app
+- tailwindcss (with postcss 7 and autoprefixer)
+
+Backend:
+- hardhat 
+- OpenZeplin 
+- ethersjs (recomended by OpenZeplin)
+- web3js (default in hardhat)
+
 Notes:
 
 Create-react-app has been used to create this project 1st
@@ -11,11 +23,11 @@ connect your wallet or application to http://localhost:8545
 
 see: https://hardhat.org/hardhat-network/reference/ for details
 
-### Other items 
+### SETUP 
 
-- OpenZeplin 
-- ethersjs (recomened by OpenZeplin)
-- Web3js (default in Hardhat)
+To install the dependencies 
+
+`npm install .  ` 
 
 
 # Advanced Sample Hardhat Project

@@ -8,15 +8,22 @@ module.exports = {
   extends: [
     "standard",
     "plugin:prettier/recommended",
-    "plugin:node/recommended",
+    "eslint:recommended", 
+    "plugin:react/recommended"
   ],
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   overrides: [
     {
       files: ["hardhat.config.js"],
       globals: { task: true },
+      
     },
   ],
 };
+
